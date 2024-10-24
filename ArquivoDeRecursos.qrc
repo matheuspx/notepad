@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>icones/botao-adicionar.png</file>
+        <file>icones/pasta.png</file>
+        <file>icones/salve-.png</file>
+    </qresource>
+</RCC>
