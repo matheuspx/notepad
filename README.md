@@ -20,7 +20,7 @@ Este é um projeto de **Bloco de Notas** desenvolvido em C++ utilizando o framew
 
 ### Pré-requisitos
 
-- **Qt Framework** instalado. Você pode fazer o download [aqui](https://www.qt.io/download).
+- **Qt Framework** instalado. Você pode fazer o download [aqui](https://www.qt.io/download-dev).
 - **Qt Creator** como IDE.
 - **Compilador C++** compatível (como MinGW ou MSVC).
 
