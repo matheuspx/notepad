@@ -27,4 +27,5 @@ RESOURCES += \
     ArquivoDeRecursos.qrc
 
 DISTFILES += \
-    .gitignore
+    .gitignore \
+    README.md
