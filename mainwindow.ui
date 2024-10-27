@@ -41,7 +41,6 @@
     <addaction name="actionnovo"/>
     <addaction name="actionAbrir"/>
     <addaction name="actionSalvar"/>
-    <addaction name="actionSalvar_Como"/>
     <addaction name="actionfechar"/>
    </widget>
    <widget class="QMenu" name="menuEditamento">
@@ -51,16 +50,24 @@
     <addaction name="actiondesfazer"/>
     <addaction name="actionCopiar"/>
     <addaction name="actionRecortar"/>
-    <addaction name="actionCoalr"/>
+    <addaction name="actionColar"/>
     <addaction name="actionrefazer"/>
    </widget>
    <widget class="QMenu" name="menuSobre">
     <property name="title">
      <string>Sobre</string>
     </property>
+    <addaction name="actionConhe_a_o_autor"/>
+   </widget>
+   <widget class="QMenu" name="menuFormatar">
+    <property name="title">
+     <string>Formatar</string>
+    </property>
+    <addaction name="actionFonte"/>
    </widget>
    <addaction name="menuArquivo"/>
    <addaction name="menuEditamento"/>
+   <addaction name="menuFormatar"/>
    <addaction name="menuSobre"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -125,7 +132,7 @@
     <string>Recortar</string>
    </property>
   </action>
-  <action name="actionCoalr">
+  <action name="actionColar">
    <property name="text">
     <string>Colar</string>
    </property>
@@ -138,6 +145,26 @@
   <action name="actionrefazer">
    <property name="text">
     <string>Refazer</string>
+   </property>
+  </action>
+  <action name="actionConhe_a_o_projeto">
+   <property name="text">
+    <string>Conheça o projeto</string>
+   </property>
+  </action>
+  <action name="actionConhe_a_o_autor">
+   <property name="text">
+    <string>Conheça o autor</string>
+   </property>
+  </action>
+  <action name="actionFonte">
+   <property name="text">
+    <string>Fonte</string>
+   </property>
+  </action>
+  <action name="actionCor">
+   <property name="text">
+    <string>Cor</string>
    </property>
   </action>
  </widget>
